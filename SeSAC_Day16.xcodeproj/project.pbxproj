@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B73F22B2B5CDFCA002892EC /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73F22A2B5CDFCA002892EC /* Int+Extension.swift */; };
+		5B73F22E2B5CE1D8002892EC /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73F22D2B5CE1D8002892EC /* ReusableViewProtocol.swift */; };
+		5B73F2302B5CE61D002892EC /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73F22F2B5CE61D002892EC /* BeerService.swift */; };
+		5B73F2382B5CE68A002892EC /* BeerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73F2372B5CE68A002892EC /* BeerEntity.swift */; };
+		5B73F23A2B5CEB88002892EC /* BeerListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B73F2392B5CEB88002892EC /* BeerListViewController.storyboard */; };
+		5B73F23C2B5CEB93002892EC /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73F23B2B5CEB93002892EC /* BeerListViewController.swift */; };
+		5B73F23E2B5CEBC7002892EC /* RandomBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73F23D2B5CEBC7002892EC /* RandomBeerViewController.swift */; };
+		5B73F2402B5CEBD3002892EC /* RandomBeerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B73F23F2B5CEBD3002892EC /* RandomBeerViewController.storyboard */; };
 		5BC434F72B5CDCEB00A20B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC434F62B5CDCEB00A20B4D /* AppDelegate.swift */; };
 		5BC434F92B5CDCEB00A20B4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC434F82B5CDCEB00A20B4D /* SceneDelegate.swift */; };
 		5BC434FB2B5CDCEB00A20B4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC434FA2B5CDCEB00A20B4D /* ViewController.swift */; };
 		5BC434FE2B5CDCEB00A20B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC434FC2B5CDCEB00A20B4D /* Main.storyboard */; };
 		5BC435002B5CDCEC00A20B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC434FF2B5CDCEC00A20B4D /* Assets.xcassets */; };
 		5BC435032B5CDCEC00A20B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC435012B5CDCEC00A20B4D /* LaunchScreen.storyboard */; };
+		5BC4350C2B5CDCFB00A20B4D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5BC4350B2B5CDCFB00A20B4D /* Kingfisher */; };
+		5BC4350F2B5CDD0700A20B4D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5BC4350E2B5CDD0700A20B4D /* Alamofire */; };
+		5BC435162B5CDD5400A20B4D /* LotteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC435152B5CDD5400A20B4D /* LotteryViewController.swift */; };
+		5BC435192B5CDD7900A20B4D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC435182B5CDD7900A20B4D /* APIService.swift */; };
+		5BC4351B2B5CDD9200A20B4D /* LottoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4351A2B5CDD9200A20B4D /* LottoService.swift */; };
+		5BC4351E2B5CDDA900A20B4D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4351D2B5CDDA900A20B4D /* NetworkError.swift */; };
+		5BC435232B5CDDD700A20B4D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC435222B5CDDD700A20B4D /* String+Extension.swift */; };
+		5BC435252B5CDE2D00A20B4D /* LotteryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC435242B5CDE2D00A20B4D /* LotteryViewController.storyboard */; };
+		5BC435272B5CDE5B00A20B4D /* LottoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC435262B5CDE5B00A20B4D /* LottoEntity.swift */; };
+		5BFA0C4E2B5CEFFF0081ABCE /* BeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA0C4C2B5CEFFE0081ABCE /* BeerTableViewCell.swift */; };
+		5BFA0C4F2B5CEFFF0081ABCE /* BeerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BFA0C4D2B5CEFFF0081ABCE /* BeerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B73F22A2B5CDFCA002892EC /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		5B73F22D2B5CE1D8002892EC /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		5B73F22F2B5CE61D002892EC /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
+		5B73F2372B5CE68A002892EC /* BeerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerEntity.swift; sourceTree = "<group>"; };
+		5B73F2392B5CEB88002892EC /* BeerListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeerListViewController.storyboard; sourceTree = "<group>"; };
+		5B73F23B2B5CEB93002892EC /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
+		5B73F23D2B5CEBC7002892EC /* RandomBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerViewController.swift; sourceTree = "<group>"; };
+		5B73F23F2B5CEBD3002892EC /* RandomBeerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RandomBeerViewController.storyboard; sourceTree = "<group>"; };
 		5BC434F32B5CDCEB00A20B4D /* SeSAC_Day16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_Day16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC434F62B5CDCEB00A20B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BC434F82B5CDCEB00A20B4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,15 @@
 		5BC434FF2B5CDCEC00A20B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC435022B5CDCEC00A20B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BC435042B5CDCEC00A20B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC435152B5CDD5400A20B4D /* LotteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewController.swift; sourceTree = "<group>"; };
+		5BC435182B5CDD7900A20B4D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		5BC4351A2B5CDD9200A20B4D /* LottoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoService.swift; sourceTree = "<group>"; };
+		5BC4351D2B5CDDA900A20B4D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5BC435222B5CDDD700A20B4D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5BC435242B5CDE2D00A20B4D /* LotteryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LotteryViewController.storyboard; sourceTree = "<group>"; };
+		5BC435262B5CDE5B00A20B4D /* LottoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoEntity.swift; sourceTree = "<group>"; };
+		5BFA0C4C2B5CEFFE0081ABCE /* BeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewCell.swift; sourceTree = "<group>"; };
+		5BFA0C4D2B5CEFFF0081ABCE /* BeerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +67,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC4350C2B5CDCFB00A20B4D /* Kingfisher in Frameworks */,
+				5BC4350F2B5CDD0700A20B4D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B73F22C2B5CE1CA002892EC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5B73F22D2B5CE1D8002892EC /* ReusableViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5B73F2312B5CE624002892EC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5B73F22F2B5CE61D002892EC /* BeerService.swift */,
+				5BC4351A2B5CDD9200A20B4D /* LottoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5B73F2332B5CE669002892EC /* Beer */ = {
+			isa = PBXGroup;
+			children = (
+				5B73F2362B5CE678002892EC /* Model */,
+				5B73F2352B5CE673002892EC /* Controller */,
+				5B73F2342B5CE66F002892EC /* View */,
+			);
+			path = Beer;
+			sourceTree = "<group>";
+		};
+		5B73F2342B5CE66F002892EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B73F2392B5CEB88002892EC /* BeerListViewController.storyboard */,
+				5B73F23F2B5CEBD3002892EC /* RandomBeerViewController.storyboard */,
+				5BFA0C4C2B5CEFFE0081ABCE /* BeerTableViewCell.swift */,
+				5BFA0C4D2B5CEFFF0081ABCE /* BeerTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B73F2352B5CE673002892EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B73F23B2B5CEB93002892EC /* BeerListViewController.swift */,
+				5B73F23D2B5CEBC7002892EC /* RandomBeerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B73F2362B5CE678002892EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B73F2372B5CE68A002892EC /* BeerEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5BC434EA2B5CDCEB00A20B4D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +149,11 @@
 		5BC434F52B5CDCEB00A20B4D /* SeSAC_Day16 */ = {
 			isa = PBXGroup;
 			children = (
+				5B73F2332B5CE669002892EC /* Beer */,
+				5B73F22C2B5CE1CA002892EC /* Protocol */,
+				5BC4351F2B5CDDBE00A20B4D /* Extensions */,
+				5BC435172B5CDD7000A20B4D /* Network */,
+				5BC435112B5CDD3400A20B4D /* Lotto */,
 				5BC434F62B5CDCEB00A20B4D /* AppDelegate.swift */,
 				5BC434F82B5CDCEB00A20B4D /* SceneDelegate.swift */,
 				5BC434FA2B5CDCEB00A20B4D /* ViewController.swift */,
@@ -65,6 +163,67 @@
 				5BC435042B5CDCEC00A20B4D /* Info.plist */,
 			);
 			path = SeSAC_Day16;
+			sourceTree = "<group>";
+		};
+		5BC435112B5CDD3400A20B4D /* Lotto */ = {
+			isa = PBXGroup;
+			children = (
+				5BC435142B5CDD4300A20B4D /* Model */,
+				5BC435132B5CDD4000A20B4D /* View */,
+				5BC435122B5CDD3C00A20B4D /* Controller */,
+			);
+			path = Lotto;
+			sourceTree = "<group>";
+		};
+		5BC435122B5CDD3C00A20B4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5BC435152B5CDD5400A20B4D /* LotteryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5BC435132B5CDD4000A20B4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BC435242B5CDE2D00A20B4D /* LotteryViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BC435142B5CDD4300A20B4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BC435262B5CDE5B00A20B4D /* LottoEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BC435172B5CDD7000A20B4D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B73F2312B5CE624002892EC /* Service */,
+				5BC4351C2B5CDD9F00A20B4D /* Error */,
+				5BC435182B5CDD7900A20B4D /* APIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5BC4351C2B5CDD9F00A20B4D /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				5BC4351D2B5CDDA900A20B4D /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		5BC4351F2B5CDDBE00A20B4D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BC435222B5CDDD700A20B4D /* String+Extension.swift */,
+				5B73F22A2B5CDFCA002892EC /* Int+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +242,10 @@
 			dependencies = (
 			);
 			name = SeSAC_Day16;
+			packageProductDependencies = (
+				5BC4350B2B5CDCFB00A20B4D /* Kingfisher */,
+				5BC4350E2B5CDD0700A20B4D /* Alamofire */,
+			);
 			productName = SeSAC_Day16;
 			productReference = 5BC434F32B5CDCEB00A20B4D /* SeSAC_Day16.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +274,10 @@
 				Base,
 			);
 			mainGroup = 5BC434EA2B5CDCEB00A20B4D;
+			packageReferences = (
+				5BC4350A2B5CDCFB00A20B4D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				5BC4350D2B5CDD0700A20B4D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 5BC434F42B5CDCEB00A20B4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +294,10 @@
 			files = (
 				5BC435032B5CDCEC00A20B4D /* LaunchScreen.storyboard in Resources */,
 				5BC435002B5CDCEC00A20B4D /* Assets.xcassets in Resources */,
+				5BFA0C4F2B5CEFFF0081ABCE /* BeerTableViewCell.xib in Resources */,
+				5B73F23A2B5CEB88002892EC /* BeerListViewController.storyboard in Resources */,
+				5BC435252B5CDE2D00A20B4D /* LotteryViewController.storyboard in Resources */,
+				5B73F2402B5CEBD3002892EC /* RandomBeerViewController.storyboard in Resources */,
 				5BC434FE2B5CDCEB00A20B4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +309,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC435232B5CDDD700A20B4D /* String+Extension.swift in Sources */,
 				5BC434FB2B5CDCEB00A20B4D /* ViewController.swift in Sources */,
+				5B73F23C2B5CEB93002892EC /* BeerListViewController.swift in Sources */,
+				5BFA0C4E2B5CEFFF0081ABCE /* BeerTableViewCell.swift in Sources */,
+				5B73F2382B5CE68A002892EC /* BeerEntity.swift in Sources */,
+				5BC4351E2B5CDDA900A20B4D /* NetworkError.swift in Sources */,
+				5BC435192B5CDD7900A20B4D /* APIService.swift in Sources */,
+				5B73F23E2B5CEBC7002892EC /* RandomBeerViewController.swift in Sources */,
+				5BC435162B5CDD5400A20B4D /* LotteryViewController.swift in Sources */,
+				5B73F22B2B5CDFCA002892EC /* Int+Extension.swift in Sources */,
+				5BC435272B5CDE5B00A20B4D /* LottoEntity.swift in Sources */,
 				5BC434F72B5CDCEB00A20B4D /* AppDelegate.swift in Sources */,
+				5BC4351B2B5CDD9200A20B4D /* LottoService.swift in Sources */,
+				5B73F22E2B5CE1D8002892EC /* ReusableViewProtocol.swift in Sources */,
 				5BC434F92B5CDCEB00A20B4D /* SceneDelegate.swift in Sources */,
+				5B73F2302B5CE61D002892EC /* BeerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +547,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BC4350A2B5CDCFB00A20B4D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+		5BC4350D2B5CDD0700A20B4D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BC4350B2B5CDCFB00A20B4D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BC4350A2B5CDCFB00A20B4D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5BC4350E2B5CDD0700A20B4D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BC4350D2B5CDD0700A20B4D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BC434EB2B5CDCEB00A20B4D /* Project object */;
 }

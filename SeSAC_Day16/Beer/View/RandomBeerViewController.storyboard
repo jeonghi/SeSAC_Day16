@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Random Beer View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="RandomBeerViewController" id="Y6W-OH-hqX" customClass="RandomBeerViewController" customModule="SeSAC_Day16" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘은 이 맥주를 추천합니다" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avk-6d-Mss">
+                                <rect key="frame" x="101.66666666666667" y="89" width="189.66666666666663" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3jo-e0-c7X">
+                                <rect key="frame" x="40" y="129.33333333333334" width="313" height="319.33333333333326"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3jo-e0-c7X" secondAttribute="height" multiplier="99:101" id="cVY-Pf-0M7"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbY-up-6RG">
+                                <rect key="frame" x="121.33333333333333" y="773.66666666666663" width="150.66666666666669" height="34.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다른 맥주 추천받기"/>
+                                <connections>
+                                    <action selector="tappedRandomButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="rvq-ih-Jgx"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="zqi-5J-2nk">
+                                <rect key="frame" x="10" y="458.66666666666669" width="373" height="63.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJX-GT-1q5">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCT-X5-8oQ">
+                                        <rect key="frame" x="0.0" y="43" width="373" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="avk-6d-Mss" firstAttribute="centerX" secondItem="3jo-e0-c7X" secondAttribute="centerX" id="7Oj-J1-piS"/>
+                            <constraint firstItem="avk-6d-Mss" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="At0-hm-4Ez"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3jo-e0-c7X" secondAttribute="trailing" constant="40" id="EcW-ZR-2pv"/>
+                            <constraint firstItem="3jo-e0-c7X" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="YNg-ur-4z6"/>
+                            <constraint firstItem="zqi-5J-2nk" firstAttribute="top" secondItem="3jo-e0-c7X" secondAttribute="bottom" constant="10" id="fiY-sz-oUm"/>
+                            <constraint firstItem="zqi-5J-2nk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="hKr-Yg-8RG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="cbY-up-6RG" secondAttribute="bottom" constant="10" id="hTt-3x-8zS"/>
+                            <constraint firstItem="avk-6d-Mss" firstAttribute="centerX" secondItem="cbY-up-6RG" secondAttribute="centerX" id="niV-q8-pBI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zqi-5J-2nk" secondAttribute="trailing" constant="10" id="ydR-EC-5oK"/>
+                            <constraint firstItem="3jo-e0-c7X" firstAttribute="top" secondItem="avk-6d-Mss" secondAttribute="bottom" constant="20" id="zaB-sw-k7y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="beerDescriptionLabel" destination="JCT-X5-8oQ" id="3Ph-Lt-cO4"/>
+                        <outlet property="beerTitleLabel" destination="gJX-GT-1q5" id="T6s-to-LhN"/>
+                        <outlet property="imageView" destination="3jo-e0-c7X" id="pDp-Fd-HUE"/>
+                        <outlet property="randomButton" destination="cbY-up-6RG" id="HE4-UA-7qA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-28.169014084507044"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
